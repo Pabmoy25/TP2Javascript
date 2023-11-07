@@ -22,7 +22,7 @@ while (true) {
     if (isNaN(dni) || dni < 0 || dni > 99999999){
         alert (`Ingresa un numero de DNI valido`);
      }   else {
-            const letras = "ASDFGÑDFGFDÑHJTIREUT";
+            const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
             const i = dni % 23;
             const letraDeDNI = letras.charAt(i);
             alert (`La letra del DNI ${dni} es: ${letraDeDNI}`);
